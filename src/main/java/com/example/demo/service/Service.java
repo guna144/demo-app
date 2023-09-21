@@ -12,4 +12,9 @@ public class Service {
 	private String test() {
 		return "hello world!";
 	}
+	
+	@GetMapping("/welcome")
+	private String test1() {
+		return "Thank you Welcome";
+	}
 }
